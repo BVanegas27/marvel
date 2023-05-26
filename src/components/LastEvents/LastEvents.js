@@ -14,8 +14,7 @@ export default function LastEvents({ lastEventsFetch }) {
       <Image
         src={`${event.thumbnail.path}.${event.thumbnail.extension}`}
         wrapped
-        ui={false}
-      />
+        ui={false}/>
       <Card.Content>
         <Card.Header>{event.title}</Card.Header>
         <Card.Meta>
